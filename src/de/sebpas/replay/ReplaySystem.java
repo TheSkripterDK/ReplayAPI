@@ -71,7 +71,7 @@ public class RoboCat extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new JoinLeaveListener(), this);
         this.getServer().getPluginManager().registerEvents(new MoveListener(), this);
         this.getServer().getPluginManager().registerEvents(new PlayerListener(), this);
-        System.out.println("[Replay]: Enabled!");
+        System.out.println("[Replay: Enabled!");
         this.fileSystem = new FileManager();
         this.recorder = new Recorder(this);
 
